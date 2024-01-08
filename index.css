@@ -1,0 +1,176 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+h3 {
+  font-size: 12px;
+  font-weight: 100;
+}
+img {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+.centering {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#summary {
+  ont-weight: 900;
+  font-size: 16px;
+}
+.continue {
+  width: 66%;
+  height: 38px;
+  border-radius: 19px;
+  margin-left: 13%;
+  margin-top: 10px;
+  background-color: #313b59;
+  color: #f1f8fc;
+  border: none;
+}
+.main-container {
+  width: 50%;
+  display: flex;
+  inset: 100px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px #f2f5fe;
+}
+.result_card_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result_card {
+  width: 100%;
+  background-color: #5c3dfa;
+  border-radius: 15px;
+  padding: 14px;
+}
+.center-circle {
+  border-radius: 120px;
+  width: 135px;
+  background: #4a27d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-p {
+  color: #7f71fc;
+}
+.result_card h1 {
+  color: white;
+}
+.result_card h2 {
+  color: white;
+}
+.result_card h3 {
+  color: #cbc0ff;
+}
+.content {
+  color: #c0c1fe;
+  text-align: center;
+  width: 66%;
+}
+.summary {
+  width: 100%;
+  padding: 25px;
+}
+
+.main-summary {
+  display: flex;
+  justify-content: space-between;
+}
+.Reaction {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff6f5;
+  border-radius: 7px;
+  height: 42px;
+  padding: 6px;
+}
+.Reaction h3 {
+  color: #e1a8b2;
+}
+.Verbal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3fd;
+  border-radius: 7px;
+  height: 42px;
+  padding: 6px;
+}
+.Verbal h3 {
+  color: #e0d5a4;
+}
+
+.Memory {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffbf3;
+  border-radius: 7px;
+  height: 42px;
+  padding: 6px;
+}
+.Memory h3 {
+  color: #66bba3;
+}
+.Visual {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3fbfa;
+  border-radius: 7px;
+  height: 42px;
+  padding: 6px;
+}
+.Visual h3 {
+  color: #5e60c4;
+}
+.title {
+  display: flex;
+  justify-content: baseline;
+  gap: 11px;
+}
+.summaries {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (max-width: 700px) {
+  .main-container {
+    display: block;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    inset: 0px;
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    box-shadow: none;
+  }
+  .summary {
+    width: auto;
+  }
+  .result_card {
+    border-radius: 0px;
+  }
+
+  button {
+    button {
+      width: 64%;
+      border-radius: 19px;
+      background-color: #313b59;
+      color: #f1f8fc;
+      border: none;
+      height: 46px;
+      margin: auto;
+    }
+  }
+}
